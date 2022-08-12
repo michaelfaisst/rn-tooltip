@@ -1,5 +1,0 @@
-enhancement:
-  - src/**/*
-
-has_test:
-  - _tests_/**/*

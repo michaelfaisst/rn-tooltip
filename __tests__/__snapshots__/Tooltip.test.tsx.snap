@@ -6,7 +6,9 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
 >
   <View
     accessible={true}
-    isTVSelectable={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -19,11 +21,7 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
+    <Text>
       Press me
     </Text>
   </View>
@@ -38,7 +36,9 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
   >
     <View
       accessible={true}
-      isTVSelectable={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -61,17 +61,13 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
             "left": 0,
             "overflow": "visible",
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": 0,
             "width": 0,
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
+        <Text>
           Press me
         </Text>
       </View>
@@ -80,7 +76,7 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
           Object {
             "left": -7.5,
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": -2,
           }
         }
@@ -121,17 +117,13 @@ exports[`Tooltip component should display tooltip on longPress 1`] = `
             "left": -17.999,
             "padding": 10,
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": 10,
             "width": 200,
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
+        <Text>
           Info here
         </Text>
       </View>
@@ -146,7 +138,9 @@ exports[`Tooltip component should display tooltip when no actionType is provided
 >
   <View
     accessible={true}
-    isTVSelectable={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -159,11 +153,7 @@ exports[`Tooltip component should display tooltip when no actionType is provided
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
+    <Text>
       Press me
     </Text>
   </View>
@@ -178,7 +168,9 @@ exports[`Tooltip component should display tooltip when no actionType is provided
   >
     <View
       accessible={true}
-      isTVSelectable={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -201,17 +193,13 @@ exports[`Tooltip component should display tooltip when no actionType is provided
             "left": 0,
             "overflow": "visible",
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": 0,
             "width": 0,
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
+        <Text>
           Press me
         </Text>
       </View>
@@ -220,7 +208,7 @@ exports[`Tooltip component should display tooltip when no actionType is provided
           Object {
             "left": -7.5,
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": -2,
           }
         }
@@ -261,17 +249,13 @@ exports[`Tooltip component should display tooltip when no actionType is provided
             "left": -17.999,
             "padding": 10,
             "position": "absolute",
-            "right": null,
+            "right": undefined,
             "top": 10,
             "width": 200,
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
+        <Text>
           Info here
         </Text>
       </View>
@@ -286,7 +270,9 @@ exports[`Tooltip component should render without issues 1`] = `
 >
   <View
     accessible={true}
-    isTVSelectable={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -299,11 +285,7 @@ exports[`Tooltip component should render without issues 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
+    <Text>
       Press me
     </Text>
   </View>
@@ -315,107 +297,6 @@ exports[`Tooltip component should render without issues 1`] = `
     onShow={[Function]}
     transparent={true}
     visible={false}
-  >
-    <View
-      accessible={true}
-      isTVSelectable={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "rgba(250, 250, 250, 0.70)",
-          "flex": 1,
-          "opacity": 1,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "height": 0,
-            "left": 0,
-            "overflow": "visible",
-            "position": "absolute",
-            "right": null,
-            "top": 0,
-            "width": 0,
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
-          Press me
-        </Text>
-      </View>
-      <View
-        style={
-          Object {
-            "left": -7.5,
-            "position": "absolute",
-            "right": null,
-            "top": -2,
-          }
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderBottomColor": "white",
-                "borderBottomWidth": 15,
-                "borderLeftColor": "transparent",
-                "borderLeftWidth": 8,
-                "borderRightColor": "transparent",
-                "borderRightWidth": 8,
-                "borderStyle": "solid",
-                "height": 0,
-                "width": 0,
-              },
-              Object {
-                "borderBottomColor": "#617080",
-              },
-              Object {},
-            ]
-          }
-        />
-      </View>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#617080",
-            "borderRadius": 10,
-            "display": "flex",
-            "flex": 1,
-            "height": 40,
-            "justifyContent": "center",
-            "left": -17.999,
-            "padding": 10,
-            "position": "absolute",
-            "right": null,
-            "top": 10,
-            "width": 150,
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
-          Info here
-        </Text>
-      </View>
-    </View>
-  </Modal>
+  />
 </View>
 `;
